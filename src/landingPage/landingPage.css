@@ -1,0 +1,23 @@
+.navbar{
+    padding: 40px;
+    background: #34b5db;
+    display: flex;
+}
+
+.navbar-right{
+    width: 100%;
+    text-align: right;
+    font-weight: 1000;
+}
+.active-page {
+    color: blueviolet !important;
+}
+.navbar-left{
+    width: 100%;
+    text-align: left;
+}
+.navbar-right button{
+    color: white;
+    font-weight: 600;
+    padding: 6px 15px;
+}

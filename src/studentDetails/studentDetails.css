@@ -1,0 +1,38 @@
+.studentDetails {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: cadetblue;
+    width: 30%;
+    height: 40%;
+    padding: 2% 4%;
+    margin: 14% 32%;
+}
+.student-label {
+    display: flex;
+    padding: 1%;
+}
+.student-details {
+    padding-left: 55%;
+    position: absolute;
+}
+.student-fees {
+    padding-left: 25%;
+    position: absolute;
+}
+.student-fees-modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: cadetblue;
+    width: 20%;
+    height: 13%;
+    padding: 2% 4%;
+    margin: 14% 32%;
+}

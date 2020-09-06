@@ -1,0 +1,122 @@
+.modalClass {
+    padding: 10px;
+    height: 50%;
+    width: 35%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.studentModalClass {
+    height: 95%;
+    width: 39%;
+    background-color: white;
+    margin-left: 30%; 
+}
+.createClass {
+    padding-left: 40%;
+}
+.deleteModalClass {
+    padding: 10px;
+    height: 20%;
+    width: 35%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.deleteClass {
+    padding-left: 18%;
+}
+.btn-seleection{
+    display: flex;
+    justify-content: center;
+}
+.btn-seleection button{
+    margin : 6px 10px !important;
+}
+.student-label {
+    display: flex;
+    padding: 1%;
+}
+.studentDetails {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: #34b5db;
+    width: 30%;
+    height: 30%;
+    padding: 2% 4%;
+    margin: 14% 32%;
+}
+.student-modalClass {
+    padding: 10px;
+    height: 25%;
+    width: 35%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.inputDiv{
+    width: 88%;
+    margin:0 !important;
+    padding: 20px;
+}
+.inputDiv label{
+    color: black;
+}
+.inputClassPass {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    border-radius: 5px;
+}
+.inputClassPass1{
+    width: 50%;
+    float: right;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.class-table{
+    margin: 40px 150px;
+}
+.class-table /deep/ .MuiTableContainer-root{
+    border: 1px solid lightgrey;
+}
+.MuiTableHead-root{
+    background: #34b5db;
+}
+.MuiTableCell-head{
+    font-weight: bold !important;
+    color: white !important;
+    text-align: center !important;
+}
+button{
+    color: white !important;
+    background: #34b5db !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+}
+.MuiTableCell-body button{
+    margin: 0px 10px;
+}
+.MuiTableCell-body{
+ text-align: center !important;
+}

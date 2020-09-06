@@ -1,0 +1,49 @@
+.loginForm {
+    background-color: rgb(152, 230, 255);
+    background-image: url('/img/background.jpg');
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.signIn {
+    background-color: rgb(0 0 0 / 26%);
+    width: 35%;
+    border-radius: 10px;
+}
+.signInLabel {
+    text-align: center;
+    color: white;
+}
+.inputDiv{
+    margin: 10%;
+}
+.inputDiv label{
+    color: white;
+    font-weight: 600;
+}
+.inputClassEmail, .inputClassPass {
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 50%;
+}
+.inputDiv1{
+    margin: 10%;
+    text-align: center;
+}
+.inputDiv1 button{
+    background: #98e6ff;
+    color: white !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.loginButton {
+    margin-left: 30%;
+    margin-bottom: 5%;
+    padding: 2%;
+    width: 25%;
+}
