@@ -22,9 +22,9 @@ class Login extends Component {
         if (this.state.isPasswordValid && this.state.isEmailValid) {
             const requestOptions = {
                 method: 'GET',
-                headers: { 'Content-Type': 'application/json' },
+                headers: { 'Content-Type': 'application/json' }
             };
-            let url = 'http://localhost:5000';
+            let url = 'https://school-erp-system-api.herokuapp.com';
             fetch(`${url}/login/?email=${this.state.email}&&password=${this.state.password}`, requestOptions)
                 .then(response => response.json())
                 .then((response) => {

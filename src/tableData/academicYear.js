@@ -68,7 +68,7 @@ class AcademicYearTable extends Component {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body)
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/createAcademicYear`, requestOptions)
             .then(response => response.json())
             .then((response) => {
@@ -96,7 +96,7 @@ class AcademicYearTable extends Component {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body)
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/updateYear/${this.state.yearId}`, requestOptions)
             .then(response => response.json())
             .then((response) => {
@@ -133,7 +133,7 @@ class AcademicYearTable extends Component {
             method: 'DELETE',
             headers: { 'Content-Type': 'application/json' }
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/updateYear/${this.state.yearId}`, requestOptions)
             .then(response => response.json())
             .then((response) => {

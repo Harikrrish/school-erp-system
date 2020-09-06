@@ -25,7 +25,7 @@ class StudentDetails extends Component {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/getStudentDetails/${parentId}`, requestOptions)
             .then(response => response.json())
             .then((response) => {
@@ -45,7 +45,7 @@ class StudentDetails extends Component {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/payFeesAmount/${studentId}`, requestOptions)
             .then(response => response.json())
             .then((response) => {

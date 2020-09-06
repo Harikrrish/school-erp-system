@@ -30,7 +30,7 @@ class LandingPage extends Component {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/getAllClasses`, requestOptions)
             .then(response => response.json())
             .then((response) => {
@@ -49,7 +49,7 @@ class LandingPage extends Component {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/getAllStudents`, requestOptions)
             .then(response => response.json())
             .then((response) => {
@@ -68,7 +68,7 @@ class LandingPage extends Component {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/getAllAcademicYears`, requestOptions)
             .then(response => response.json())
             .then((response) => {

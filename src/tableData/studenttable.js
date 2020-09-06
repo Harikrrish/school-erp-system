@@ -115,7 +115,7 @@ class StudentTable extends Component {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body)
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/createStudent`, requestOptions)
             .then(response => response.json())
             .then((response) => {
@@ -157,7 +157,7 @@ class StudentTable extends Component {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body)
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/setPayment/${this.state.selectedStudentId}`, requestOptions)
             .then(response => response.json())
             .then((response) => {
@@ -178,7 +178,7 @@ class StudentTable extends Component {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         };
-        let url = 'http://localhost:5000';
+        let url = 'https://school-erp-system-api.herokuapp.com';
         fetch(`${url}/getParent/${parentId}`, requestOptions)
             .then(response => response.json())
             .then((response) => {
